@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    .contact-us{
+        display: block;
+        margin: auto;
+        width: 800px;   
+        background-color: #f3f3f3;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    .contact-us p{
+        font-size: 18px;
+    }
+    .contact-us h1{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .contact-us li{
+	padding: 5px;
+	line-height: 24px;
+}
+
+.contact-us ul li img{
+	position: absolute;
+	left: 0;
+	top: relative;
+}
+.contact-us ul li i{
+	position: relative;
+	left: 0;
+	top: relative;
+	margin-top: 5px;
+	margin-left: 20px;
+    padding-right: 5px;;
+}
+.contact-us ul{
+    margin-top: 10px;
+    font-size: 20px;
+}
+</style>
+<body>
+    <!--------------------------Navbar---------------------------------------->
+    <nav class="navbar">
+        <div class="logo"><h2>AvNET</h2></div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="customerzone.php">Customer zone</a></li>
+            <li><a href="plans.html">Plans</a></li>
+            <li id="active"><a href="#">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!--------------------------Main---------------------------------------------->
+    <main>
+        <div class="contact-us" >
+            <h1>Contact us</h1>
+            
+            <ul style="list-style-type: none;">
+                <li><i class="fa fa-location-arrow" aria-hidden="true"></i></i>Address : Office No. 208, 2nd floor, Plot No. 13, Sector 9, Jaipur, Rajasthan</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> Phone : +91 9999999990</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> Email :<a style="color: inherit;" href="mailto:info@example.com">  info@avnet.com</a></li>
+                <li><i class="fa fa-clock-o" aria-hidden="true"></i> Opening Hours: Mon - Sat 9am to 6pm</li>
+            </ul>
+            
+        </div>
+    </main>
+    <!---------------------------Footer---------------------------------------------->
+    <footer>
+        <p>AvNET Pvt Ltd &copy; <script>var year = new Date();document.write(year.getFullYear());</script></p>
+    </footer>
+</body>
+</html>
